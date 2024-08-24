@@ -231,6 +231,7 @@
       font-weight: 600 !important;
     }
   }
+
   
   .carousel-control-prev,
   .carousel-control-next {
@@ -491,18 +492,22 @@
     
     margin-left: 5px;
 }
+.footer-2{
+  height: 81%;
+  width: 30vw;
+}
 
 .pricing-plan{
-    width: 100%;
-    height: auto;
-    background-color: #a7dbe9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.5s ease;
 }
 .pricing-plan:hover{
-    transform: scale(1.03); 
-    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+  transform: scale(1.03); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
 }
   
   .team-item:hover .team-img img,
