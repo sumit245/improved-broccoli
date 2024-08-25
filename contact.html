@@ -16,6 +16,17 @@
       content="Get in touch with WriteEasy for professional assignment writing help. Find our contact information, including phone numbers, email addresses, and office locations. We're here to assist you with your academic needs."
     />
 
+    <meta
+      property="og:title"
+      content="Contact WriteEasy | Connect for Comprehensive Assignment Help"
+    />
+    <meta
+      property="og:description"
+      content="Get in touch with WriteEasy for professional assignment writing help. Find our contact information, including phone numbers, email addresses, and office locations. We're here to assist you with your academic needs."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="WriteEasy" />
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
 
@@ -114,9 +125,13 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="fa fa-bars"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link active">Home</a>
@@ -164,7 +179,7 @@
                 class="form-control bg-transparent border-primary p-3"
                 placeholder="Type search keyword"
               />
-              <button class="btn btn-primary px-4">
+              <button class="btn btn-primary px-4" aria-label="Search">
                 <i class="bi bi-search"></i>
               </button>
             </div>
@@ -273,7 +288,11 @@
                   ></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary w-100 py-3" type="submit">
+                  <button
+                    class="btn btn-primary w-100 py-3"
+                    type="submit"
+                    aria-label="Send Message"
+                  >
                     Send Message
                   </button>
                 </div>
