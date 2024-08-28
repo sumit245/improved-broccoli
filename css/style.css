@@ -330,6 +330,23 @@ h6,
   }
 }
 
+
+
+/* Presence-Map */
+ .presence {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px; /* Adjust this value based on how much space you want */
+            background-color: #fff; /* Optional: background color for the container */
+        }
+
+        /* Style for the map image */
+        .presence img.map {
+            max-width: 60%; /* Keep the map within the container width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
 /*** Service ***/
 .service-item {
   position: relative;
@@ -514,6 +531,8 @@ h6,
 .blog-item:hover .blog-img img {
   transform: scale(1.15);
 }
+
+
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
