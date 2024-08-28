@@ -496,7 +496,9 @@ h6,
 }
 
 .pricing-plan {
+
   width: 100%;
+  max-width: 100%;
   height: auto;
   background-color: lightblue;
   box-shadow: -1px 2px 27px 2px #777777cc;
