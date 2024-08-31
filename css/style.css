@@ -330,22 +330,20 @@ h6,
   }
 }
 
-
-
 /* Presence-Map */
- .presence {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 500px; /* Adjust this value based on how much space you want */
-            background-color: #fff; /* Optional: background color for the container */
-        }
+.presence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust this value based on how much space you want */
+  background-color: #fff; /* Optional: background color for the container */
+}
 
-        /* Style for the map image */
-        .presence img.map {
-            max-width: 60%; /* Keep the map within the container width */
-            height: auto; /* Maintain aspect ratio */
-        }
+/* Style for the map image */
+.presence img.map {
+  max-width: 60%; /* Keep the map within the container width */
+  height: auto; /* Maintain aspect ratio */
+}
 
 /*** Service ***/
 .service-item {
@@ -393,6 +391,18 @@ h6,
   bottom: -24px;
   opacity: 1;
 }
+
+
+/* Hover effect for service items */
+.service-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 /*** Testimonial ***/
 
@@ -444,6 +454,24 @@ h6,
 }
 
 /*** Team ***/
+
+.flag {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flag2 {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .team-item {
   transition: 0.5s;
 }
@@ -513,7 +541,6 @@ h6,
 }
 
 .pricing-plan {
-
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -531,8 +558,6 @@ h6,
 .blog-item:hover .blog-img img {
   transform: scale(1.15);
 }
-
-
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
@@ -564,14 +589,6 @@ h6,
 .link-animated a:hover {
   padding-left: 10px;
 }
-
-/* @media (min-width: 767.98px) {
-  .footer-about {
-    margin-bottom: -75px;
-  }
-} */
-
-
 
 @media (max-width: 767px) {
   .footer-about {
