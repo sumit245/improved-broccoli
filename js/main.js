@@ -23,6 +23,20 @@
     }
   });
 
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentLocation = location.href;
+    const menuItems = document.querySelectorAll(".navbar-nav .nav-link");
+
+    menuItems.forEach((item) => {
+      if (item.href === currentLocation) {
+        menuItems.forEach((link) => link.classList.remove("active"));
+        item.classList.add("active");
+      }
+    });
+  });
+
+
   // Dropdown on mouse hover
   const $dropdown = $(".dropdown");
   const $dropdownToggle = $(".dropdown-toggle");

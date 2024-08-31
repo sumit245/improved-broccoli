@@ -565,8 +565,20 @@ h6,
   padding-left: 10px;
 }
 
-@media (min-width: 767.98px) {
+/* @media (min-width: 767.98px) {
   .footer-about {
     margin-bottom: -75px;
+  }
+} */
+
+
+
+@media (max-width: 767px) {
+  .footer-about {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer-about p {
+    font-size: 14px;
   }
 }
